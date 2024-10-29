@@ -15,7 +15,53 @@ body {
 hr {
   display: none;
 } /* rimuove l'elemento */
+.restart{
+  position: fixed;
+bottom: 20px;
+right: 20px;
 
+color: rgb(210, 19, 248);
+
+padding: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .calendario{
+    
+    bottom: 40px;
+    right: 20px;
+    
+    color: rgb(53, 19, 248);
+    
+    padding: 10px;
+  }
+  .social{
+    
+    bottom: 60px;
+    right: px;
+    
+    color: rgb(53, 19, 248);
+    
+    padding: 10px;
+  }}
+@media screen and (max-width: 700px) {
+  .calendario{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    
+    color: rgb(53, 19, 248);
+    
+    padding: 10px;
+  }
+  .social{
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    
+    color: rgb(53, 19, 248);
+    
+    padding: 10px;
+  }}
 /* HEADER */
 header {
   background: rgb(0, 160, 198);
@@ -349,10 +395,7 @@ footer {
   padding: 1em;
   text-align: center;
   font-size: 1.2rem;
-  position: ;
-}
-.restart{
-  position: fixed;
+ 
 }
 
 @media screen and (min-width: 800px) {
